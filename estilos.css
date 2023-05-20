@@ -84,7 +84,7 @@ header a:hover{
     text-align: center;
     flex-direction: column;
     height: 90vh;
-    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),  rgba(0,0,0,0.9)),url(./media/business-laptop-computer-keyboard.jpg);
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),  rgba(0,0,0,0.9)),url(business-laptop-computer-keyboard.jpg);
     color: white;
     background-repeat: no-repeat;
     background-size: cover;
@@ -139,15 +139,15 @@ header a:hover{
 }
 
 .carta:first-child{
-    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),  rgba(0,0,0,0.9)),url(./media/coding.jpg);
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),  rgba(0,0,0,0.9)),url(coding.jpg);
 }
 
 .carta:nth-child(2){
-    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),  rgba(0,0,0,0.9)),url(./media/girl-coding.jpg);
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),  rgba(0,0,0,0.9)),url(girl-coding.jpg);
 }
 
 .carta:nth-child(3){
-    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),  rgba(0,0,0,0.9)),url(./media/python.jpg);
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),  rgba(0,0,0,0.9)),url(python.jpg);
 }
 
 #caracteristicas .contenedor{
