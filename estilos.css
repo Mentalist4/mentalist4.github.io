@@ -91,7 +91,7 @@ header a:hover{
     flex-direction: column;
     height: 90vh;
 
-    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),  rgba(0,0,0,0.9)),url(./media/business-laptop-computer-keyboard.jpg);
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),  rgba(0,0,0,0.9)),url(business-laptop-computer-keyboard.jpg);
     color: white;
     background-repeat: no-repeat;
     background-size: cover;
@@ -164,15 +164,15 @@ header a:hover{
 }
 
 .carta:first-child{
-    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),  rgba(0,0,0,0.9)),url(./media/coding.jpg);
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),  rgba(0,0,0,0.9)),url(coding.jpg);
 }
 
 .carta:nth-child(2){
-    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),  rgba(0,0,0,0.9)),url(./media/girl-coding.jpg);
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),  rgba(0,0,0,0.9)),url(girl-coding.jpg);
 }
 
 .carta:nth-child(3){
-    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),  rgba(0,0,0,0.9)),url(./media/python.jpg);
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),  rgba(0,0,0,0.9)),url(python.jpg);
 }
 
 #caracteristicas .contenedor{
@@ -281,7 +281,7 @@ footer .contenedor{
     }
 
     #somos-proya .contenedor-imagen{
-        background-image: linear-gradient(0deg, rgba(0 ,0 ,0 , 0.5), rgba(0, 0,0, 0.5)), url(./media/man-looking-computer-monitor.jpg); background-size: cover;
+        background-image: linear-gradient(0deg, rgba(0 ,0 ,0 , 0.5), rgba(0, 0,0, 0.5)), url(man-looking-computer-monitor.jpg); background-size: cover;
         background-position: center;
         height: 500px;
         width: 400px;
@@ -319,15 +319,15 @@ footer .contenedor{
     }
 
     .carta:first-child{
-        background-image: linear-gradient(0deg, rgba(5, 7, 12, 0.2),  rgba(5, 7, 12, 0.2)),url(./media/coding.jpg);
+        background-image: linear-gradient(0deg, rgba(5, 7, 12, 0.2),  rgba(5, 7, 12, 0.2)),url(coding.jpg);
     }
     
     .carta:nth-child(2){
-        background-image: linear-gradient(0deg, rgba(5, 7, 12, 0.4),  rgba(5, 7, 12, 0.4)),url(./media/girl-coding.jpg);
+        background-image: linear-gradient(0deg, rgba(5, 7, 12, 0.4),  rgba(5, 7, 12, 0.4)),url(girl-coding.jpg);
     }
     
     .carta:nth-child(3){
-        background-image: linear-gradient(0deg, rgba(5, 7, 12, 0.4),  rgba(5, 7, 12, 0.4)),url(./media/python.jpg);
+        background-image: linear-gradient(0deg, rgba(5, 7, 12, 0.4),  rgba(5, 7, 12, 0.4)),url(python.jpg);
     }
 
     #caracteristicas .contenedor{
@@ -337,7 +337,7 @@ footer .contenedor{
     }
 
     #caracteristicas .contenedor .asiatica{
-        background-image: url(./media/young-asian-female.jpg);
+        background-image: url(young-asian-female.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
