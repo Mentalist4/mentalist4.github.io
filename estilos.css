@@ -1,9 +1,11 @@
 *{
     box-sizing: border-box;
+    font-family: 'Didact Gothic', sans-serif;
 }
 
 html{
     scroll-behavior: smooth;
+
 }
 
 body{
@@ -11,15 +13,15 @@ body{
     margin: 0;
 }
 
-h1{font-size: 3.5em;}
-h2{font-size: 2em;}
+h1{font-size: 5em;}
+h2{font-size: 4em;}
 h3{font-size: 2.7em;}
 p{font-size: 1.25em;}
 ul{list-style: none;}
 li{font-size: 1.25em;}
 
 button{
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: bold;
     padding: 10px 20px;
     border-radius: 10px;
@@ -49,7 +51,7 @@ header .logo{
     padding: 25px 30px;
     font-weight: bolder;
     color: blueviolet;
-    font-size: 1.6em;
+    font-size: 4em;
 }
 
 header .contenedor{
@@ -69,7 +71,8 @@ header nav{
 header a{
         text-decoration: none;
         padding: 5px 12px;
-        font-weight: bold;
+        font-weight: bolder;
+        font-size: 2em;
         color: black;
 }
 
@@ -84,13 +87,24 @@ header a:hover{
     text-align: center;
     flex-direction: column;
     height: 90vh;
-    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.9)),url(business-laptop-computer-keyboard.jpg);
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),  rgba(0,0,0,0.9)),url(./media/business-laptop-computer-keyboard.jpg);
     color: white;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     text-shadow: 2px 2px 10px black;
 }
+
+/*
+#somos-proya{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px auto;
+    height: 90vh;
+}
+*/
 
 #somos-proya .contenedor{
     text-align: center;
@@ -99,6 +113,14 @@ header a:hover{
 
 #somos-proya span{
     color:blueviolet
+}
+
+#somos-proya .contenedor .retorno{
+    position: fixed;
+    font-size: 50px;
+    bottom: 40px;
+    left: 800px;
+    color: blueviolet;
 }
 
 #nuestros-cursos {
@@ -128,15 +150,15 @@ header a:hover{
 }
 
 .carta:first-child{
-    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.9)),url(coding.jpg);
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),  rgba(0,0,0,0.9)),url(./media/coding.jpg);
 }
 
 .carta:nth-child(2){
-    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.9)),url(girl-coding.jpg);
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),  rgba(0,0,0,0.9)),url(./media/girl-coding.jpg);
 }
 
 .carta:nth-child(3){
-    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.9)),url(python.jpg);
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),  rgba(0,0,0,0.9)),url(./media/python.jpg);
 }
 
 #caracteristicas .contenedor{
